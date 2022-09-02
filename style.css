@@ -30,6 +30,7 @@ body {
   padding: 10px;
   margin: 5px 0;
 }
+.main2 button a{text-decoration: none}
 .main2 button:hover, button:focus{
   background: green;
 }
