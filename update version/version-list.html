@@ -86,10 +86,19 @@
           <td><a href="https://drive.google.com/uc?export=download&id=15wBx4SjYJGwFgRWo2sZu17PbS1IlQRsx">Click here</a></td>
         </tr>
       </table>
-      <p style="margin-top: 15px"><a href="index.html">&laquo;Go back home</a></p>
+      <p style="margin-top: 15px;text-decoration: underline" onclick="history.back()">&laquo;Go back to homepage</p>
     </div>
   </div>
   
+  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+  <script>
+    kofiWidgetOverlay.draw('lndownloader', {
+      'type': 'floating-chat',
+      'floating-chat.donateButton.text': 'Support me',
+      'floating-chat.donateButton.background-color': '#f45d22',
+      'floating-chat.donateButton.text-color': '#fff'
+    });
+  </script>
   <script src="https://twilightanimetv.github.io/project/main.js"></script>
 </body>
 </html>
