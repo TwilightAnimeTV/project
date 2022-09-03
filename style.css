@@ -10,7 +10,8 @@
 }
 body {
   font-size: 12pt;
-  background: midnightblue
+  background: midnightblue;
+  max-width:100%;
 }
 .main-container{
   padding: 15px 30px;
@@ -18,6 +19,7 @@ body {
   flex-direction: column;
   align-items: top;
   justify-content: center;
+  width: inherit;
 }
 .main1 h2{margin-bottom: 10px;}
 .main1 p{margin-bottom: 10px}
@@ -38,10 +40,12 @@ body {
 .post-main table{
   margin: 0;padding: 0;
   border:1px solid green;
-  max-width: 100%;
+  max-width: 300px;
+  overflow: hidden
 }
 .post-main table tr{
   border:1px solid green;
+  width: 100%;
 }
 .post-main table th{background-color: green;color:#fff;padding: 10px}
 .post-main table td{
