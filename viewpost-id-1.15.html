@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Novel DL Post</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="main-container">
+    <div class="post-main">
+      <h2>Our Dating Story: The Experienced You and The Inexperienced Me Light Novel</h2>
+      <p>Download volumes available below.</p>
+      <table>
+        <tr>
+          <th>Volume</th>
+          <th>Epub</th>
+          <th>Pdf</th>
+        </tr>
+        <tr>
+          <td>Volume 1</td>
+          <td><a href="https://drive.google.com/uc?export=download&id=1zhxy3Vq6HYCqK6cc1KzSAAHZ_6mXOvwp">Click here</a></td>
+          <td><a href="https://drive.google.com/uc?export=download&id=1IFN6HjwBUGft77P3e7Gajfv9k_oaWlLJ">Click here</a></td>
+        </tr>
+        <tr>
+          <td>Volume 2</td>
+          <td><a href="https://drive.google.com/uc?export=download&id=1K9XdtzdVekbeMFAGLddobFF4VpaxbuGk">Click here</a></td>
+          <td><a href="https://drive.google.com/uc?export=download&id=1IHrESD4KO1xt7jo4Z3P9okL6ujULooCg">Click here</a></td>
+        </tr>
+      </table>
+      <p style="margin-top: 15px"><a href="index.html">&laquo;Go back home</a></p>
+      <p id="kofiBtn" style="margin-top: 15px;border:1px solid white;border-radius:15px;padding:10px;width:200px;text-align:center" onclick="showKofi()">Support Me</p>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+  <script>
+    function showKofi(){
+      document.getElementById('kofiBtn').style.display="none";
+      kofiWidgetOverlay.draw('lndownloader', {
+      'type': 'floating-chat',
+      'floating-chat.donateButton.text': 'Support me',
+      'floating-chat.donateButton.background-color': '#f45d22',
+      'floating-chat.donateButton.text-color': '#fff'
+      });
+    }
+  </script>
+</body>
+</html>
